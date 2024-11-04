@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="container mx-auto">
         <div className="flex flex-row gap-5">
             <div className="text-white w-1/2 px-10 flex flex-col justify-center content-center">
-                <div class="flex flex-row mb-5">
+                <div className="flex flex-row mb-5">
                     <div className="py-1 px-5 bg-code text-black font-bold"> THE CODE </div>
                 </div>
                 <h1 className="text-white text-5xl"> 

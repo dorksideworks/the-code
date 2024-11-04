@@ -20,8 +20,67 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+* {
+  font-family: Poppins;
+}
+p {
+  line-height: 2em;
+}
 .container {
   width: 1300px;
 }
 
+.personality-card {
+  
+}
+
+.break {
+  height: 1920px;
+}
+
+.card {
+  width: 70%;
+}
+
+.card-action {
+  rotate: -5deg;
+}
+
+.card-nurturing {
+  rotate: -10deg;
+}
+
+.card-blueprint {
+  rotate: -15deg;
+}
+
+.card-knowledge {
+  rotate: -20deg;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.circle {
+  width:60px;
+  height:60px;
+  
+}
+
+.cta-quote {
+  background: #212121;
+  
+}
+
+.bank-white {
+  top: -25%;
+  scale: .75;
+  rotate: 20deg;
+  right: -20%;
+}
+
+.footer {
+  
+  background: #212121;
+}

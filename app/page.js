@@ -4,6 +4,10 @@ import Hero from '@/components/Hero';
 import Stats from '@/components/stats';
 import Problem from '@/components/Problem';
 import PersonalityCards from "@/components/PersonalityCards";
+import CTAQuote from "@/components/CTAQuote";
+import BankSystem from "@/components/BankSystem";
+import CodeBreaker from "@/components/CodeBreaker";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +16,12 @@ export default function Home() {
       <Hero/>
       <Stats/>
       <Problem/>
+      <BankSystem/>
       <PersonalityCards/>
+      <CTAQuote/>
+      <CodeBreaker/>
+      <Footer/>
+
     </div>
   );
 }
