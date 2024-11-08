@@ -1,25 +1,35 @@
-
+'use client'
+import AOS from 'aos';
+import {useEffect} from 'react';
+import "aos/dist/aos.css";
 
 export default function Hero() {
+
+    useEffect(()=> {
+        AOS.init({
+            duration : 1000
+        });
+    })
+
     return(
         <div className="container mx-auto">
         <div className="flex flex-row gap-5">
             <div className="text-white w-1/2 px-10 flex flex-col justify-center content-center">
                 <div className="flex flex-row mb-5">
-                    <div className="py-1 px-5 bg-code text-black font-bold"> THE CODE </div>
+                    <div className="py-1 px-5 bg-code text-black font-bold" data-aos="fade-down"> THE CODE </div>
                 </div>
-                <h1 className="text-white text-5xl"> 
+                <h1 className="text-white text-5xl" data-aos="fade-right"> 
                     <span className="text-code font-bold">Empower your sales process</span> with the latest advancements in human psychology and AI
                 </h1>
-                <p className="mt-5">When interacting with potential clients, it’s crucial to communicate in a way that resonates with them, both in terms of language and context. By grasping their needs and preferences, we can customize our approach.
+                <p className="mt-5" data-aos="fade-right">When interacting with potential clients, it’s crucial to communicate in a way that resonates with them, both in terms of language and context. By grasping their needs and preferences, we can customize our approach.
                 </p>
                 <br/>
 
                 <div className="flex flex-row align-center gap-5">
 
-                <div className="border-code border-2 px-5 py-2"> GET STARTED </div>
+                <div className="border-code border-2 px-5 py-2" data-aos="fade-up"> GET STARTED </div>
 
-                <div className="flex flex-row align-center content-center justify-center justify-items-center gap-3">
+                <div className="flex flex-row align-center content-center justify-center justify-items-center gap-3" data-aos="fade-up">
 
                     <div className="flex flex-col justify-center align-center"> 
                     <div className="rounded-full bg-code p-4"></div>
