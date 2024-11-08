@@ -1,8 +1,15 @@
-
+'use client'
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 export default function CTAQuote() {
+    useEffect(()=> {
+        AOS.init({
+            duration : 1000
+        });
+    })
     return(
-        <div className="container mx-auto">
+        <div className="container mx-auto" data-aos="fade-up">
             <div className="cta-quote rounded-2xl flex flex-row overflow-hidden">
                 <div className="w-1/2 relative flex flex-col justify-center content-center align-center px-20">
 

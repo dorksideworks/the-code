@@ -27,7 +27,7 @@ p {
   line-height: 2em;
 }
 .container {
-  width: 1300px;
+  width: 80%;
 }
 
 .personality-card {
@@ -59,7 +59,9 @@ p {
 }
 
 section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .circle {

@@ -13,7 +13,7 @@ export default function Problem() {
     })
     
     return(
-        <section className="flex flex-col align-center justify-center content-center">
+        <section className="flex flex-col align-center justify-center content-center mb-52">
             <div className="container flex flex-col justify-center items-center align-center mx-auto">
                 <div className="flex flex-col items-center justify-center align-center">
                     <div data-aos="fade-down" className="bg-code py-2 px-5">
@@ -55,7 +55,7 @@ export default function Problem() {
                 </div> */}
 
 
-                <div className="flex flex-row gap-5 mt-10"> 
+                <div className="flex flex-col xl:flex-row gap-5 mt-10"> 
 
                     <div className="bg-white rounded-md px-5 py-10 basis-0 grow" data-aos="fade-up" data-aos-delay="0">
                         <div>

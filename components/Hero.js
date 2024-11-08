@@ -3,6 +3,8 @@ import AOS from 'aos';
 import {useEffect} from 'react';
 import "aos/dist/aos.css";
 
+import {motion ,easeIn, easeOut, easeInOut, cubicBezier} from 'framer-motion';
+
 export default function Hero() {
 
     useEffect(()=> {
@@ -12,9 +14,11 @@ export default function Hero() {
     })
 
     return(
-        <div className="container mx-auto">
-        <div className="flex flex-row gap-5">
-            <div className="text-white w-1/2 px-10 flex flex-col justify-center content-center">
+        <div className="container mx-auto relative">
+
+        <div className="flex flex-col-reverse gap-5 xs:flex-col sm:flex-col-reverse xl:flex-row">
+
+            <div className="text-white w-full xl:w-1/2 px-10 flex flex-col justify-center content-center">
                 <div className="flex flex-row mb-5">
                     <div className="py-1 px-5 bg-code text-black font-bold" data-aos="fade-down"> THE CODE </div>
                 </div>
@@ -43,11 +47,35 @@ export default function Hero() {
                 </div>
             </div>
 
-            <div className="w-1/2 relative ">
-              <img src="./bank_book_white.png" className="z-20 -left-24 w-12/12 scale-75 relative"/>
-              <img src="./bank_book_black.png" className="absolute top-0 w-10/12 scale-75 rotate-45 z-10 -right-24"/>
-              <img src="./code-phone-01.png" className="absolute top-72 -right-52 z-10 w-7/12"/>
-              <img src="./code-phone-02.png" className="absolute top-0 -left-32 z-10 w-6/12"/>
+            <div className="w-full xl:w-1/2 relative">
+                <motion.img 
+                    initial={{rotate:"25deg", scale:".65", x:"0px", opacity:0}}
+                    animate={{rotate:"-5deg", scale: ".65", x:"-50px", opacity:1}}
+                    transition={{ease:[0.075, 0.82, 0.4, 1], duration:2, delay:.5}}
+                    
+                    src="./bank_book_white.png" className="z-20 -left-10 w-12/12 relative"
+                />
+                <motion.img 
+
+                    initial={{rotate:"20deg", scale:".50", x:"-200px", opacity:0}}
+                    animate={{rotate:"30deg", scale: ".75", x:"20px", opacity:1}}
+                    transition={{ease:[0.075, 0.82, 0.4, 1], duration:2, delay:.5}}
+                    src="./bank_book_black.png" className="absolute top-0 w-10/12 scale-75 rotate-45 z-10 -right-24"
+                    />
+                <motion.img 
+                    src="./code-phone-01.png" className="absolute top-72 -right-52 z-10 w-7/12"
+
+                    initial={{ scale:"1", x:"-200px", y:"500px", opacity:0}}
+                    animate={{ scale: "1", x:"20px", y:"0px", opacity:1}}
+                    transition={{ease:[0.075, 0.82, 0.4, 1], duration:2 , delay: 1}}
+                    />
+                <motion.img 
+                    src="./code-phone-02.png" className="absolute top-0 -left-20 z-10 w-6/12"
+
+                    initial={{ scale:"1", x:"-200px", y:"-500px", opacity:0}}
+                    animate={{ scale: "1", x:"-25px", y:"0px", opacity:1}}
+                    transition={{ease:[0.075, 0.82, 0.4, 1], duration:2, delay:1}}
+                />
               
 
             </div>
