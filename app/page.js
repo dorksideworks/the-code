@@ -20,12 +20,12 @@ export default function Home() {
       <Stats/>
       <Problem/>
 
-      <Carousel/>
+      {/* <Carousel/> */}
       <BankSystem/>
       <PersonalityCards/>
       <CTAQuote/>
       <CodeBreaker/>
-      <Sticky/>
+      {/* <Sticky/> */}
       <Footer/>
 
     </div>
