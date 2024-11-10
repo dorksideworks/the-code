@@ -14,7 +14,6 @@ export default function Hero() {
     })
 
     return(
-        <div className='overflow-x-hidden'>
         <div className="container px-5 mx-auto relative">
 
         <div className="relative flex flex-col-reverse gap-5 xs:flex-col sm:flex-col-reverse xl:flex-row">
@@ -84,7 +83,6 @@ export default function Hero() {
             <img src="./bg-texture-gradient.png" className="z-0 -top-72 opacity-75 absolute "/>
 
         </div>
-      </div>
       </div>
 
     )
