@@ -16,15 +16,10 @@
 
 @font-face {
   font-family: Poppins;
-  src: url(./fonts/poppins/Poppins-bold.ttf);
+  src: url(../public/font/poppins/Poppins-Bold.ttf);
   font-weight: bold;
 }
 
-@font-face {
-  font-family: "Poppins Regular";
-  src: url(./fonts/poppins/Poppins-Regular.ttf);
-  font-weight: 500;
-}
 
 body {
   color: var(--foreground);
