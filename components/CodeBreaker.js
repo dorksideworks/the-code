@@ -8,7 +8,7 @@ export default function CodeBreaker(){
         });
     })
     return(
-        <section className="flex overflow-hidden">
+        <section className="flex overflow-x-hidden">
             <div className="flex flex-col-reverse xl:flex-row container mx-auto justify-center content-center align-center ">
 
                 <div className="basis-0 grow flex justify-center flex-col mt-10 xl:mt-0">

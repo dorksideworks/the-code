@@ -11,7 +11,7 @@ export default function BankSystem() {
     })
 
     return(
-        <section className="flex flex-col justify-center content-center align-center">
+        <section className="flex flex-col justify-center content-center align-center overflow-x-clip">
             <div className="container mx-auto flex flex-col-reverse xl:flex-row relative">
 
                 <div className="basis-0 grow flex justify-center flex-col">
