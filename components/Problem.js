@@ -19,8 +19,8 @@ export default function Problem() {
                     <div data-aos="fade-down" className="bg-code py-2 px-5">
                         THE PROBLEM
                     </div>
-                    <h2 data-aos="fade-up" className="text-5xl text-center mt-5">The Problem in the <span className="text-code font-bold">Sales Process</span></h2>
-                    <p data-aos="fade-up" className="text-center w-2/3 mt-3">When interacting with potential clients, it’s crucial to communicate in a way that resonates with them, both in terms of language and context. By grasping their needs and preferences, we can customize our approach.</p>
+                    <h2 data-aos="fade-up" className="text-3xl xl:text-5xl text-center mt-5">The Problem in the <span className="text-code font-bold">Sales Process</span></h2>
+                    <p data-aos="fade-up" className="text-center w-full xl:w-2/3 mt-3">When interacting with potential clients, it’s crucial to communicate in a way that resonates with them, both in terms of language and context. By grasping their needs and preferences, we can customize our approach.</p>
                 </div>
 
                 {/* <div className="mt-10">

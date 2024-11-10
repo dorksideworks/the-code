@@ -8,10 +8,10 @@ export default function CodeBreaker(){
         });
     })
     return(
-        <section className="flex">
-            <div className="flex flex-row container mx-auto justify-center content-center align-center ">
+        <section className="flex overflow-hidden">
+            <div className="flex flex-col-reverse xl:flex-row container mx-auto justify-center content-center align-center ">
 
-                <div className="basis-0 grow flex justify-center flex-col">
+                <div className="basis-0 grow flex justify-center flex-col mt-10 xl:mt-0">
                     <div className="flex flex-row">
 
                         <div className="bg-code py-2 px-5 font-bold text-sm" data-aos="fade-down">

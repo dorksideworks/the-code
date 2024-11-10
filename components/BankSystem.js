@@ -30,7 +30,7 @@ export default function BankSystem() {
                     </p>
                 </div>
 
-                <div className="basis-0 grow relative">
+                <div className="basis-0 grow relative z-50" data-aos="fade-left">
                     <img src="./green-fg.png" className="z-30 absolute -right-72" />
                     <img src="./blue-fg.png" className="z-30 absolute -bottom-12 scale-75 -left-24" />
                     <img src="./red-fg.png" className="z-30 absolute bottom-44 scale-75 -right-52" />
@@ -40,7 +40,7 @@ export default function BankSystem() {
                     <img className="absolute z-10 bank-white" src="bank_book_white.png"/>
                 </div>
 
-                <img src="bg-texture-gradient.png " className="absolute z-0 -top-32 opacity-75 scale-150 -right-72"/>
+                <img src="bg-texture-gradient.png " className="absolute z-0 -top-32 opacity-75 scale-150 -right-72 z-0"/>
 
             </div>
         </section>

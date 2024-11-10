@@ -15,8 +15,8 @@ export default function CardStack() {
   };
 
   return (
-    <div style={wrapperStyle}>
-      <ul style={cardWrapStyle}>
+    <div style={wrapperStyle} className="mx-auto">
+      <ul className="relative w-[360px] h-[250px] xl:w-[500px] xl:h-[300px]">
         {cards.map((image, index) => {
           const canDrag = index === 0;
 
@@ -24,8 +24,8 @@ export default function CardStack() {
             <motion.img
               key={image}
               src={image}
+              className="absolute w-[360px] h-[250px] xl:w-[500px] xl:h-[300px]"
               style={{
-                ...cardStyle,
                 cursor: canDrag ? "grab" : "auto"
               }}
               animate={{
@@ -47,6 +47,7 @@ export default function CardStack() {
     </div>
   );
 };
+
 const wrapperStyle = {
   position: "relative",
   display: "flex",
@@ -67,4 +68,3 @@ const cardStyle = {
   borderRadius: "8px",
   transformOrigin: "top center"
 };
-

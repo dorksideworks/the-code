@@ -3,7 +3,7 @@
 export default function Footer() {
     return(
         <div className="footer">
-            <div className="container mx-auto flex flex-row gap-10 py-20">
+            <div className="container mx-auto flex flex-col xl:flex-row gap-10 py-20">
                 <div className="basis-0 grow flex flex-col">
                     <img src="code-logo.png" className="w-24"/>
                     <p className="mt-5 text-sm">A company designed to empower your sales process with the latest advancements in human psychology & artificial intelligence. </p>

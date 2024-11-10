@@ -17,7 +17,7 @@ export default function PersonalityCards() {
             <div className="container mx-auto flex flex-col xl:flex-row justify-center content-center align-center">
 
                 <div 
-                    className='w-1/2 relative flex justiy-center align-center items-center'
+                    className='w-full xl:w-1/2 relative flex justiy-center align-center items-center'
                     data-aos="fade-right"
                     // onMouseEnter={()=>{setCardHover(true)}}
                     // onMouseLeave={()=>{setCardHover(false)}}
