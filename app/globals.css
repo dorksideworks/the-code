@@ -66,8 +66,6 @@ p {
 
 section {
   /* min-height: 100vh; */
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .circle {
@@ -91,3 +89,5 @@ section {
 .footer {
   background: #212121;
 }
+
+
